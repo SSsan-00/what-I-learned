@@ -94,3 +94,9 @@ Rust楽しい
   - 関数定義
   - &mut
   - ->
+- TDD
+  - java
+
+```
+Kent Beck大先生万歳！
+```
