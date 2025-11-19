@@ -100,3 +100,8 @@ Rust楽しい
 ```
 Kent Beck大先生万歳！
 ```
+
+# 2025/11/20
+- TDD
+  - python
+    - xunit
