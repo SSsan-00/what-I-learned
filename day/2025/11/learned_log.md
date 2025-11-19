@@ -105,3 +105,6 @@ Kent Beck大先生万歳！
 - TDD
   - python
     - xunit
+```
+クラスの扱いの違和感がすごい、、
+```
