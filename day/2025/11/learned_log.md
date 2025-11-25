@@ -166,13 +166,26 @@ Kent Beck大先生万歳！
     ```
     - 標準のジェネリックな列挙体
       - Option
+        ```Rust
+        enum Option<T> {
+          Some(T),
+          None,
+        }
+        ```
         - is_some
         - is_none
       - Result
+        ```Rust
+        enum Result<T, E> {
+          Ok(T),
+          Err(E),
+        }
+        ```
         - is_ok
         - is_err
       - unwrap
         - `エラー時パニックが発生するから間に合わせのプログラム用にしたほうがいいかも。。`
         - `Croudflareの大規模障害の一因だったり。。`
      
+
 
