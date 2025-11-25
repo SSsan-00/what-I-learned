@@ -166,8 +166,13 @@ Kent Beck大先生万歳！
     ```
     - 標準のジェネリックな列挙体
       - Option
+        - is_some
+        - is_none
       - Result
-      - is_ok
-      - is_err
+        - is_ok
+        - is_err
       - unwrap
+        - `エラー時パニックが発生するから間に合わせのプログラム用にしたほうがいいかも。。`
+        - `Croudflareの大規模障害の一因だったり。。`
      
+
