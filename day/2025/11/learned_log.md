@@ -186,6 +186,17 @@ Kent Beck大先生万歳！
       - unwrap
         - `エラー時パニックが発生するから間に合わせのプログラム用にしたほうがいいかも。。`
         - `Croudflareの大規模障害の一因だったり。。`
-     
-
+- JavaScript
+  - 非同期処理
+    - Promise
+    - .then
+    - .catch
+    - .finally
+    - async
+    - await
+  - 例外処理
+    - try-catch-finally
+      - どうも使いにくそう
+- TypeScript
+  -   
 
