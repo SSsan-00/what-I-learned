@@ -13,3 +13,17 @@
     let _r1 = 4..4;
     ```
   - usize型が要求される
+
+# 2025/12/02
+## Rust
+- 文字列の文字コードは`UTF-8`
+
+## React
+- ReactElement
+- `React.createElement(・・・)`
+- コンポーネント思考
+  - MVCの考え方と違う
+  > どっちがいいのやら。。<br>
+  > 慣れているのは圧倒的にMVC
+- jsxはXMLだからHTML以外でもインポート次第で表現できる
+  > ex)react native
