@@ -49,3 +49,10 @@
     print_codes("aあ1");
   }
   ```
+
+# 2025/12/04
+- Windowsセットアップ
+  - Chromeインストール＆同期
+  - ChatGPTログイン
+  - WIndowsアップデート
+  > エディタはNeoVimにしてみようかな笑
