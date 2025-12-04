@@ -56,3 +56,15 @@
   - ChatGPTログイン
   - WIndowsアップデート
   > エディタはNeoVimにしてみようかな笑
+## 路線図アプリ要件定義
+### 技術スタック
+  - TypeScript
+  - Next.js
+  - Supabase(PostgresSQL)
+  - Tailwind CSS
+  - pnpm
+  - Vitest
+  - React Testing Library
+  - Github Actions
+### デプロイ
+- Vercel
