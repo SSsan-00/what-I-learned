@@ -57,14 +57,44 @@
   - WIndowsアップデート
   > エディタはNeoVimにしてみようかな笑
 ## 路線図アプリ要件定義
-### 技術スタック
+### プログラミング言語・フレームワーク
   - TypeScript
-  - Next.js
-  - Supabase(PostgresSQL)
   - Tailwind CSS
+  - Next.js
+### DB
+  - Supabase(PostgresSQL)
+パッケージマネージャ
   - pnpm
+### テストフレームワーク
   - Vitest
   - React Testing Library
+### CI/CD
   - Github Actions
-### デプロイ
+### デプロイ先
 - Vercel
+### エディタ
+- vscode
+
+# 2025/12/05
+## 行脚アプリ
+- 環境構築
+```
+// プロジェクトの初期化
+pnpm dlx create-next-app@latest angya-app \
+	—typescript \
+	—tailwind \
+	—eslint \
+	—app \
+	—src-dir false \
+	—import-alias “@/*”
+
+cd angya-app
+
+// パッケージのインストール
+pnpm install
+// サーバーの起動
+pnpm dev
+
+// 以下のパスにブラウザでアクセス
+http://localhost:3000
+```
