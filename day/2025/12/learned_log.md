@@ -63,7 +63,7 @@
   - Next.js
 ### DB
   - Supabase(PostgresSQL)
-パッケージマネージャ
+### パッケージマネージャ
   - pnpm
 ### テストフレームワーク
   - Vitest
