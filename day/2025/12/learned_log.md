@@ -113,3 +113,19 @@ http://localhost:3000
 
 # 2025/12/08
 - テストランナー改修
+
+# 2025/12/09
+## Rust
+- イテレーター写経
+```Rust
+fn main() {
+  let numbers = vec![1 ,2, 3, 4, 5];
+
+  let sum: i32 = numbers
+                  .iter()
+                  .filter(|n| *n % 2 ==0)
+                  .sum::<i32>();
+
+  println!("numbers = {:?}, sum = {}", numbers, sum);
+}
+```
