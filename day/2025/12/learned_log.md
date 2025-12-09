@@ -139,7 +139,7 @@ fn main() {
 # 2025/12/10
 ## C#
 - Dictionary
-```
+```C#
 using System.Collections.Generic;
 
 class sample
