@@ -139,6 +139,8 @@ fn main() {
 # 2025/12/10
 ## C#
 - Dictionary
+  - オブジェクト初期化子もしくはコレクション初期化子の()はコンストラクタ引数がなければ省略🉑
+  - 左辺で肩がわかっているのなら`new()`(target-typed new)演算子も使える
 ```C#
 using System.Collections.Generic;
 
@@ -151,5 +153,11 @@ class sample
     {"bmp", "paint.exe"},
     {"dib", "paint.exe"},
     {"rtf", "wordpad.exe"}
+  };
+
+  Dictionary<string, string> openWith = new()   // ← 型推論 + () は必要
+  {
+    {"txt", "notepad.exe"},
+    {"bmp", "paint.exe"}
   };
 }```
