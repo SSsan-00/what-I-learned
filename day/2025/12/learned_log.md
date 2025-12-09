@@ -129,3 +129,9 @@ fn main() {
   println!("numbers = {:?}, sum = {}", numbers, sum);
 }
 ```
+## 行脚アプリ
+- GitHubへプッシュ
+- ドキュメント整備
+```
+次回GitHub Actionの動作確認を行う
+```
