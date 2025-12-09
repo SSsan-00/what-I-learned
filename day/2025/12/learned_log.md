@@ -135,3 +135,21 @@ fn main() {
 ```
 次回GitHub Actionの動作確認を行う
 ```
+
+# 2025/12/10
+## C#
+- Dictionary
+```
+using System.Collections.Generic;
+
+class sample
+{
+  Dictionary<string, string> openWith
+     = new Dictionary<string, string>()
+  {
+    {"txt", "notepad.exe"},
+    {"bmp", "paint.exe"},
+    {"dib", "paint.exe"},
+    {"rtf", "wordpad.exe"}
+  };
+}```
