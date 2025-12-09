@@ -160,4 +160,14 @@ class sample
     {"txt", "notepad.exe"},
     {"bmp", "paint.exe"}
   };
-}```
+}
+```
+## Rust
+- イテレータ
+  - イテレータジェネレータ
+    - chars
+    - bytes
+    - into_iter
+	- iter
+    - iter_mut
+    > イテレータではない値を変換してイテレータを生成する関数群
