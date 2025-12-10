@@ -201,5 +201,3 @@ class sample
  	↓
  	data.Length >= 3
  	```
-
-# 2025/12/11
