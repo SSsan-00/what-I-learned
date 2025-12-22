@@ -37,3 +37,9 @@
 ## 行脚アプリ
 - デプロイ
   > [行脚アプリ](https://angya-app.vercel.app/lines)
+
+## 競プロ
+- C言語で選択ソート実装
+
+# 2025/12/23
+- pandocでmdファイルをPDF出力
