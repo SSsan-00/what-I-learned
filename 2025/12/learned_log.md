@@ -43,3 +43,17 @@
 
 # 2025/12/23
 - pandocでmdファイルをPDF出力
+
+# 2025/12/24
+## SQL
+```
+SELECT name
+FROM sys.fn_helpcollations()
+WHERE name LIKE '%BIN2%UTF8%';
+
+SELECT  *
+FROM    dbo.YourTable
+ORDER BY  
+  -- UTF-8 に寄せた上で、BIN2_UTF8 で“バイト順”比較
+  CONVERT(varchar(max), name) COLLATE Latin1_General_100_BIN2_UTF8;
+```
