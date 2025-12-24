@@ -47,13 +47,29 @@
 # 2025/12/24
 ## SQL
 ```
+使えそうなネタ
+
 SELECT name
 FROM sys.fn_helpcollations()
 WHERE name LIKE '%BIN2%UTF8%';
+
+-- 変換の際に情報落ちしていないかをチェック(varcharに変換できない時？になる)
+SELECT col
+FROM dbo.YourTable
+WHERE CONVERT(varchar(max), col) LIKE '%?%';
 
 SELECT  *
 FROM    dbo.YourTable
 ORDER BY  
   -- UTF-8 に寄せた上で、BIN2_UTF8 で“バイト順”比較
   CONVERT(varchar(max), name) COLLATE Latin1_General_100_BIN2_UTF8;
+
+ORDER BY
+  CONVERT(varbinary(max),
+    CONVERT(varchar(max), col)
+  )
+
+ORDER BY
+  CONVERT(nvarchar(max), col)
+  COLLATE Latin1_General_100_BIN2
 ```
