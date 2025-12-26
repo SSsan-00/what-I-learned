@@ -73,3 +73,6 @@ ORDER BY
   CONVERT(nvarchar(max), col)
   COLLATE Latin1_General_100_BIN2
 ```
+
+# 2025/12/26
+- 差分ビューツール作成コトハジメ
